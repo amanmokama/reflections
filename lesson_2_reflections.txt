@@ -1,0 +1,10 @@
+->  git init - to make current directory as a repository
+->  git status - give the status of the latest commit
+->  git add - to make files to tracking area
+->  git config --global user.name "aman"  -  to add identity
+->  git config --global user.email "amanmokama@gmail.com" - to add email id of the author
+->  git commit -m "some message"
+
+
+staging area
+working directory
