@@ -6,5 +6,25 @@
 ->  git commit -m "some message"
 
 
+->  git diff - changes made to working directory and staging area
+->  git diff --staged - staging area and recent commit
+->  git reset -hard  -  discards any changes made to staging area and working area
+->  git checkout master
+
+->  git branch - shows lists of branch
+->  git branch easy-mode - create a new branch
+->  git checkout easy-mode - to switch to another branch(like easy-mode)
+->  git checkout coins (create another branch)
+->  git log --graph --oneline master coins 
+
+->  git checkout -b new_branch_name (git branch new_branch_name+
+	git checkout new_branch_name)
+->  git merge master coins - merge two branches
+
+->  git show id - show the diff between it's code and parent's code
+->  git merge --abort
+->  git config --global core.autocrlf true
+->  git log -n1 
+
 staging area
 working directory
